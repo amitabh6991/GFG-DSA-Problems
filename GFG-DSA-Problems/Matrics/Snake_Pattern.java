@@ -4,10 +4,12 @@ public class Snake_Pattern {
 		Scanner scn = new Scanner(System.in) ;
 		int r = scn.nextInt() ;// number of row
 		int c = scn.nextInt() ;// number of colon
+		//Initialize an 2d array
 		int arr[][]  = new int[r][c] ;
+		// take input of matrices in integer 
 		for(int i = 0 ;i < r ;i++) {
 			for(int  j = 0; j < c ; j++ ) {
-				arr[i][j] = scn.nextInt() ; // take input of matrices in integer 
+				arr[i][j] = scn.nextInt() ;  
 				}
 			 }
 		for(int i = 0 ;i < r ;i++) {
