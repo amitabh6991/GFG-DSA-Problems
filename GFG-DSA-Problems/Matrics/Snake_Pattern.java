@@ -1,16 +1,13 @@
 import java.util.Scanner;
-
 public class Snake_Pattern {
-
-	public static void main(String[] args) {
-		 
+	public static void main(String[] args) { 
 		Scanner scn = new Scanner(System.in) ;
-		int r = scn.nextInt() ;// number of rows
+		int r = scn.nextInt() ;// number of row
 		int c = scn.nextInt() ;// number of colon
 		int arr[][]  = new int[r][c] ;
 		for(int i = 0 ;i < r ;i++) {
 			for(int  j = 0; j < c ; j++ ) {
-				arr[i][j] = scn.nextInt() ; // take input of matrices
+				arr[i][j] = scn.nextInt() ; // take input of matrices in integer 
 				}
 			 }
 		for(int i = 0 ;i < r ;i++) {
@@ -19,7 +16,7 @@ public class Snake_Pattern {
 				 for(int  j = 0; j < c ; j++ ) {
 						 System.out.print(arr[i][j] + " ");
 						}
-				 System.out.println();
+				 System.out.println();// for new line
 			 }
 			 //print odd number of rows in reverse order
 			 else {
@@ -28,9 +25,6 @@ public class Snake_Pattern {
 						}
 				 System.out.println(); // for new line 
 			 }
-			 }
-		 
-
+		 } 
 	}
-
 }
