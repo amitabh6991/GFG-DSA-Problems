@@ -16,16 +16,16 @@ public class Snake_Pattern {
 			// print even number of rows
 			 if(i%2 == 0) { 
 				 for(int  j = 0; j < c ; j++ ) {
-						 System.out.print(arr[i][j] + " ");
-						}
+					System.out.print(arr[i][j] + " ");
+				}
 				 System.out.println();// for new line
 			 }
 			 //print odd number of rows in reverse order
 			 else {
 				 for(int  j = c-1; j >=0 ; j-- ) {
 					 System.out.print(arr[i][j] + " ");
-						}
-				 System.out.println(); // for new line 
+				}
+				System.out.println(); // for new line 
 			 }
 		 } 
 	}
